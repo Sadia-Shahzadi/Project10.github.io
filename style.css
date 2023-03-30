@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)),url(imgs/snowy-mountain-1287145.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 2%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 2% 30px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    padding: 2px;
+    display: block;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    background-color: black;
+}
+nav ul li a:hover{
+    color: black;
+}
+.heading{
+    text-align: center;
+    margin-top: 8%;
+}
+.heading h2{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 20px;
+   
+}
+.heading h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+.heading p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.button1, .button2{
+    width: 100%;
+    border: 2px solid white;
+    padding: 14px 55px;
+    margin: 12px;
+    font-size: 20px;
+    color: white;
+
+}
+.button1:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+.button2{
+    background-color: black;
+    border: 2px solid black;
+}
+.button2:hover{
+    background-color: transparent;
+    border: 2px solid white;
+
+
+}
+.cards{
+    margin: 5% 0%;
+    display: flex;
+
+}
+div{
+    margin: 0 2%;
+}
+.cards img{
+    width: 100%;   
+}
+.cards img:hover{
+    box-shadow: rgb(177, 179, 234) 0px 0px 0px 3px, rgb(228, 238, 228) 0px 0px 0px 6px, rgb(77, 76, 73) 0px 0px 0px 9px, rgb(18, 17, 17) 0px 0px 0px 12px, rgb(171, 162, 162) 0px 0px 0px 15px;
+}
+.about{
+    display: flex;
+    margin: 8%;
+}
+.about h1{
+    margin-left: 10px;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.button3{
+    width: 100%;
+    border: 2px solid black;
+    padding: 14px 55px;
+    margin: 12px;
+    font-size: 25px;
+    color: black;
+}
+.button3:hover{
+    background-color: black;
+    color: white;
+}
+.about p, .button3{
+       margin-left: 40%;
+}
+.about p{
+    margin-bottom: 80px;
+}
+.call{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1.8)), url(imgs/102017415-view-of-blue-mountains-abstract-background-waves.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.call{
+    text-align: center;
+}
+.call h1{
+    padding-top: 12%;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    
+}
+.call p{
+    padding-top: 30px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.gallery{
+    margin-top: 10%;
+    columns: 3;
+    column-gap: 10px;
+}
+.gallery img{
+    width: 100%;
+    padding: 2px 10px;
+}
+.gallery img:hover{
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+.footer{
+    margin-top: 10%;
+
+}
+.footer h1{
+    border: 1px solid white;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background: #ebebeb;
+    padding: 2% 0;
+    color: #8f8d8d;
+    font-size: 22px;
+}
+
+
+
+
